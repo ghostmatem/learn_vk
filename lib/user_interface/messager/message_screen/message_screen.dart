@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:test_app/user_interface/fake_data.dart';
 import 'package:test_app/user_interface/messager/custom_appbar_button.dart';
-import 'package:test_app/user_interface/messager/extern_dialogs_screen/dialogs_widget.dart';
 import 'package:test_app/user_interface/messager/icon_widget.dart';
 import 'package:test_app/user_interface/messager/message_screen/message_body_widget.dart';
 import 'package:test_app/user_interface/messager/message_screen/message_field_widget.dart';
-import 'package:test_app/user_interface/styles/theme.dart';
+import 'package:test_app/user_interface/styles/message_screen_theme.dart';
 
 class MessageScreen extends StatelessWidget {
   const MessageScreen({ Key? key, required this.data }) : super(key: key);

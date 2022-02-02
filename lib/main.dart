@@ -5,7 +5,7 @@ import 'package:test_app/user_interface/fake_data.dart';
 import 'package:test_app/user_interface/messager/extern_dialogs_screen/dialogs_screen.dart';
 import 'package:test_app/user_interface/messager/extern_dialogs_screen/dialogs_widget.dart';
 import 'package:test_app/user_interface/messager/message_screen/message_screen.dart';
-import 'package:test_app/user_interface/styles/theme.dart';
+import 'package:test_app/user_interface/styles/auth_theme.dart';
 
 void main() {
   genAndPlaceData();

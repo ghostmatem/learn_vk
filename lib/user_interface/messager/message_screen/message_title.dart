@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_app/user_interface/fake_data.dart';
-import 'package:test_app/user_interface/styles/theme.dart';
+import 'package:test_app/user_interface/styles/message_screen_theme.dart';
 
 class MessageTitle extends StatelessWidget {
   const MessageTitle({ Key? key, required this.message, required this.time, required this.maxSizeTextWidth}) : super(key: key);

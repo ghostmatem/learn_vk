@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_app/user_interface/styles/theme.dart';
+import 'package:test_app/user_interface/styles/dialogs_screen_theme.dart';
 
 class CustomAppbarButton extends StatelessWidget {
   const CustomAppbarButton({ Key? key, required this.iconData, required this.callback }) : super(key: key);

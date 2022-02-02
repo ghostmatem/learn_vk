@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:test_app/user_interface/messager/message_screen/text_field_button.dart';
-import 'package:test_app/user_interface/styles/theme.dart';
+import 'package:test_app/user_interface/styles/message_screen_theme.dart';
 
 class MessageFieldWidget extends StatelessWidget {
   const MessageFieldWidget({ Key? key }) : super(key: key);

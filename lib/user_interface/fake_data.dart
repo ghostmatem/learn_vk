@@ -1,7 +1,5 @@
 import 'dart:math';
 
-import 'package:test_app/data/api_provider.dart';
-
 class VKFakeData{
   VKFakeData(this.name, this.messages, this.time, this.avatar, this.otherAvatar);
 

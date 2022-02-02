@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:test_app/app_routes.dart';
 import 'package:test_app/user_interface/fake_data.dart';
 import 'package:test_app/user_interface/messager/icon_widget.dart';
-import 'package:test_app/user_interface/messager/message_screen/message_screen.dart';
-import 'package:test_app/user_interface/styles/theme.dart';
+import 'package:test_app/user_interface/styles/dialogs_screen_theme.dart';
+
 
 class DialogListTitle extends StatelessWidget {
   const DialogListTitle({ Key? key, required this.data}) : super(key: key);

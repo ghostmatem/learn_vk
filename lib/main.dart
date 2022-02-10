@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 import 'package:test_app/user_interface/messager/extern_dialogs_screen/dialogs_widget.dart';
 import 'package:test_app/user_interface/navigation/main_app_navigation.dart';
 import 'package:test_app/user_interface/styles/auth_theme.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await Hive.initFlutter();
   genAndPlaceData();
   runApp(const MyApp());
 }

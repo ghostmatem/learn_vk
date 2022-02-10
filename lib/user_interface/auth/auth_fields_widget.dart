@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_app/app_routes.dart';
+import 'package:test_app/user_interface/navigation/app_routes.dart';
 import 'package:test_app/user_interface/styles/auth_theme.dart';
 
 class AuthFieldsWidget extends StatefulWidget {
